@@ -54,8 +54,7 @@ pipeline {
             }
         }
     }
-
-    post {
+ post {
         success {
             echo "Build, push, and container execution successful!"
         }
@@ -64,3 +63,8 @@ pipeline {
         }
     }
 }
+
+   
+
+
+        
